@@ -15,6 +15,7 @@ COINGITHUB=https://github.com/Legioncrypto/Legion.git
 COINDAEMON=legiond
 COINCORE=.Legion
 COINCONFIG=Legion.conf
+DIR=Legion
 
 checkForUbuntuVersion() {
    echo "[1/${MAX}] Checking Ubuntu version..."
