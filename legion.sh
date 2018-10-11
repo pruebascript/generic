@@ -63,7 +63,7 @@ installWallet() {
 	mkdir $DIR  2>&1
   cd $DIR 2>&1
 	git clone $COINGITHUB 2>&1
-	cd Legion/Legion/src 2>&1
+	cd ~/Legion/Legion/src 2>&1
 	make -f makefile.unix 2>&1
     chmod 755 $COINDAEMON 2>&1
     strip $COINDAEMON 2>&1
