@@ -73,6 +73,7 @@ installWallet() {
     strip $COINDAEMON 2>&1
     sudo mv $COINDAEMON /usr/bin 2>&1
     cd 2>&1
+    $COINDAEMON -daemon
     echo -e "${NONE}${GREEN}* Done${NONE}";
 }
 
